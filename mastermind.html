@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <link rel="stylesheet" type="text/css" href="mastermind.css">
+  <meta charset="utf-8">
+  <title>Mastermind</title>
+</head>
+<body>
+  <link rel="shortcut icon" href="icon.ico">
+  <audio autoplay controls>
+    <source src="jazz1.mp" type="audio/mpeg">
+    <source src="jazz.og"  type="audio/ogg">
+  </audio>
+  <div id="uitleg">
+    <p> <h3>Uitleg mastermind</h3>
+    In mastermind moet je de code raden die door de computer gegenereerd is. Kiez de kleuren die je wilt door op een kleur te klikken in het keuzemenu. Die kleur zal verschijnen  op het bord na 4 kleuren te hebben gekozen zal het gecontroleerd worden. Als het een rode pin geeft dan staat de kleur op de juiste plek en als je een witte pin terugkrijgt dan is het wel de juiste kleur maar niet de juiste plek. In het geval dat er er geen pin komt heb je een kleur gekozen die er niet in staat. De volgorde van de pins hoeven niet overeen te komen met de volgorde van de kleuren op het bord.<br><br> *Er is geen beperking voor hoe vaak een kleur kan voorkomen.
+    </p>
+  </div>
+  <div id="main">
+    <img id="logo" src="Mastermind-Logo.jpg" alt="logo">
+    <div id="hoek1"></div>
+    <div id="hoek2"></div>
+    <div id="hoek3"></div> 
+    <div id="hoek4"></div>
+    <div id="bord">
+      <div id="row1">
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div>
+            <div id="row2">
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div>
+            <div id="row3">
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div>
+            <div id="row4">
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div>
+            <div id="row5">
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div>
+            <div id="row6">
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div>
+            <div id="row7">
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div>
+            <div id="row8">
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+        <div class="color4"></div>
+      </div>
+ <div id="row9">
+    <div class="color1"></div>
+    <div class="color2"></div>
+    <div class="color3"></div>
+    <div class="color4"></div>
+ </div>
+</div>
+    <div id="color-picker">
+    <button id="blue" onclick= "addColor(0)"></button>
+    <button id="green" onclick= "addColor(1)"></button>
+    <button id="purple" onclick= "addColor(2)"></button>
+    <button id="red" onclick= "addColor(3)"></button>
+    <button id="white" onclick= "addColor(4)"></button>
+    <button id="yellow" onclick= "addColor(5)"></button>
+ </div>
+ <div id="solution">
+ </div>
+ <div id="solution1">
+ </div>
+ <div id="solution2">
+ </div>
+ <div id="solution3">
+ </div> 
+<div id="check1">
+  <div class="pin1"></div>
+  <div class="pin2"></div>
+  <div class="pin3"></div>
+  <div class="pin4"></div>
+      </div>
+  <div id="check2">
+  <div class="pin1"></div>
+  <div class="pin2"></div>
+  <div class="pin3"></div>
+  <div class="pin4"></div>
+      </div>
+<div id="check3">
+  <div class="pin1"></div>
+  <div class="pin2"></div>
+  <div class="pin3"></div>
+  <div class="pin4"></div>
+      </div>
+<div id="check4">
+  <div class="pin1"></div>
+  <div class="pin2"></div>
+  <div class="pin3"></div>
+  <div class="pin4"></div>
+      </div>
+<div id="check5">
+  <div class="pin1"></div>
+  <div class="pin2"></div>
+  <div class="pin3"></div>
+  <div class="pin4"></div>
+      </div>
+<div id="check6">
+  <div class="pin1"></div>
+  <div class="pin2"></div>
+  <div class="pin3"></div>
+  <div class="pin4"></div>
+      </div>
+<div id="check7">
+  <div class="pin1"></div>
+  <div class="pin2"></div>
+  <div class="pin3"></div>
+  <div class="pin4"></div>
+  </div>
+<div id="check8">
+  <div class="pin1"></div>
+  <div class="pin2"></div>
+  <div class="pin3"></div>
+  <div class="pin4"></div>
+      </div>
+<div id="check9">
+  <div class="pin1"></div>
+  <div class="pin2"></div>
+  <div class="pin3"></div>
+  <div class="pin4"></div>
+      </div>
+      <button id="knop" onclick="reloadz()">Opnieuw</button>
+    <script src="mastermind.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,278 @@
+body{
+	background-image:url(bg.jpg);
+
+}
+#main{
+	background-color:#202021;
+	width: 600px;
+	height: 840px;
+	position: relative;
+	margin:0 auto;
+	border-radius: 20px;
+	border:2px solid black;
+}
+#hoek1,#hoek2,#hoek3,#hoek4{
+	border: 2px solid black;
+}
+audio {
+position: absolute;
+right: 20px;
+bottom:0px;
+width: 80px;
+height: 50px;
+}
+
+#hoek1{
+ background-color:#c6c4c0;
+ width: 110px;
+ height: 110px;
+ position:absolute;
+ top:0px;
+ left:0px;
+ border-radius:20px 0px 20px 0px;
+}
+#hoek2{
+ background-color:#c6c4c0;
+ width: 110px;
+ height: 110px;
+ position:absolute;
+ top:0px;
+ right:0px;
+ border-radius:0px 20px 0px 20px;	
+}
+#hoek3{
+ background-color:#c6c4c0;
+ width: 110px;
+ height: 110px;
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  border-radius: 0px 20px 0px 20px;	
+}
+#hoek4{
+ background-color:#c6c4c0;
+ width: 110px;
+ height: 110px;
+ border-radius:20px 0px 20px 0px;	
+ position:absolute;
+ right:0px;
+ bottom:0px;
+}
+#bord{
+ background-color:#5e2615;
+ width:400px;
+ height:622px;
+ position:absolute;
+ top:110px;
+ left:102px;
+ border-radius: 10px;
+ border:2px solid black; 
+
+}
+#uitleg{
+position: absolute;
+left: 40px;
+top: 200px;
+width: 320px;
+height: 470px;
+background-color:black;
+color:white;
+font-size: 18px;
+border-radius: 20px;
+border:silver 2px solid;
+padding:10px;
+}
+#logo{
+position: absolute;
+top: 0;
+left: 114px;
+border-radius: 20px;
+width: 372px;
+height: 110px;
+z-index: 1;
+}
+#knop{
+ background-color:black;
+ width:220px;
+ height:100px;
+ border: 1px solid silver;
+ position: absolute;
+ top: 100px;
+ right:-320px;
+ color:white;
+ font-size: 25px;
+ border-radius:20px;
+}
+#row{
+background-color:#4f4949;
+width: 374px;
+height: 100px;
+position:absolute;
+bottom:0px;
+left:113px;
+}
+#color-picker{
+ background-color:black;
+ width: 430px;
+ height:100px;
+ position:absolute;
+ top: 50px;
+ left:-440px;
+ border-radius: 20px;
+ border:2px solid silver;
+}
+#white,#purple,#yellow,#green,#red,#blue{
+ width:60px; ;
+ height:60px;
+ border-radius:50px;
+ margin:4px;
+ margin-top: 19px;
+}
+#white{
+ background-color:white;	
+}
+#purple{
+ background-color:purple;	
+}
+#yellow{
+ background-color:yellow;	
+}
+#green{
+ background-color:green;	
+}
+#red{
+ background-color:red;	
+}
+#blue{
+ background-color:blue;	
+}
+.color1,.color2,.color3,.color4{
+ width:53px; 
+ height: 50px;
+ background-color:black;
+ display:inline-block;
+ margin:10px;
+ margin-left: 25px;
+ border-radius: 50px;
+ border: silver solid 1px;
+}
+#row1,#row2,#row3,#row4,#row5,#row6,#row7,#row8{
+margin:2px;	
+}
+#solution{
+ background-color:black;
+ color:white;
+ width:70px;
+ height: 50px;
+ border:silver 1px solid;
+margin: 2px;
+position:absolute;
+top: 15px;
+left:120px;
+border-radius:10px;
+display:none;
+}
+#solution1{
+ background-color:black;
+ color:white;
+ width:70px;
+ height: 50px;
+ border:silver 1px solid;
+ position:absolute;
+margin: 2px;
+top: 15px;
+left:220px;
+border-radius:10px;
+display:none;
+}
+#solution2{
+ background-color:black;
+ color:white;
+ width:70px;
+ height: 50px;
+ border:silver 1px solid;
+ position:absolute;
+margin: 2px;
+top: 15px;
+left:310px;
+border-radius:10px;
+display:none;
+}
+#solution3{
+ background-color:black;
+ color:white;
+ width:70px;
+ height: 50px;
+ border:silver 1px solid;
+margin: 2px;
+ position:absolute;
+top: 15px;
+left:400px;
+border-radius:10px;
+display:none;
+}
+#check1{
+ width: 70px;
+ position: absolute;
+left: 25px;
+top:125px;
+}
+
+#check2{
+ width: 70px;
+ position: absolute;
+left: 25px;
+top:200px;
+}
+#check3{
+ width: 70px;
+ position: absolute;
+left: 25px;
+top:275px;
+}
+#check4{
+ width: 70px;
+ position: absolute;
+left: 25px;
+top:350px;
+}
+#check5{
+ width: 70px;
+ position: absolute;
+left: 25px;
+top:425px;
+}
+#check6{
+ width: 70px;
+ position: absolute;
+left: 25px;
+top:500px;
+}
+#check7{
+ width: 70px;
+ position: absolute;
+left: 25px;
+top:575px;
+}
+#check8{
+ width: 70px;
+ position: absolute;
+left: 25px;
+top:650px;
+}
+#check9{
+ width: 70px;
+ position: absolute;
+left: 25px;
+top:735px;
+z-index: 2;
+}
+.pin1,.pin2,.pin3,.pin4{
+ height: 20px;
+ width: 20px;
+ border-radius:15px;
+ background-color:black;
+ border: 1px silver solid;
+ display: inline-block;
+ margin: 3px;
+}
